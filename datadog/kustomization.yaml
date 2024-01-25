@@ -10,5 +10,5 @@ helmCharts:
     namespace: datadog
     valuesFile: datadog-values.yaml
     releaseName: datadog
-    version: latest
+    version: 3.50.5
     repo: https://helm.datadoghq.com
