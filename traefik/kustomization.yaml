@@ -5,9 +5,9 @@ namespace: traefik
 resources:
 - values.yaml
 - traefik-ingress.yaml
+- namespace.yaml
 
 helmCharts:
   - name: traefik
-    namespace: traefik
     releaseName: traefik
     repo: https://traefik.github.io/charts
