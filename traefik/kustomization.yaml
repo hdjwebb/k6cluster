@@ -3,11 +3,11 @@ kind: Kustomization
 namespace: traefik
 
 resources:
-- values.yaml
 - traefik-ingress.yaml
 - namespace.yaml
 
 helmCharts:
   - name: traefik
+    valuesFile: values.yaml
     releaseName: traefik
     repo: https://traefik.github.io/charts
