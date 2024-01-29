@@ -2,3 +2,5 @@ datadog:
  apiKeyExistingSecret: datadog-secret
  appKeyExistingSecret: datadog-secret
  site: datadoghq.com
+ kubelet:
+  tlsVerify: false
