@@ -4,8 +4,8 @@ namespace: cloudflared
 
 
 helmCharts:
-  - name: cloudflared
+  - name: cloudflare-tunnel-remote
     namespace: cloudflared
     valuesFile: values.yaml
-    releaseName: cloudflare-tunnel-remote
+    releaseName: cloudflared
     repo: https://cloudflare.github.io/helm-charts
